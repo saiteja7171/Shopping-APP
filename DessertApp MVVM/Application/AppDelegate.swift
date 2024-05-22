@@ -4,7 +4,12 @@
 //
 //  Created by Sai Teja Atluri on 2/6/24.
 //
-
+/*
+ ViewModel
+ Do not need to import UIKit
+ It should contain only business logic.
+ It will communicate with view/vc (Protocols/Delegate pattern, Closures, Observer Pattern, RXSwift, Combine)
+ */
 import UIKit
 
 @main
