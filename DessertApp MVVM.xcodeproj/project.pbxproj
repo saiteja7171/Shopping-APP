@@ -13,6 +13,18 @@
 		C35CA4492B729CCA00C9DB48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35CA4472B729CCA00C9DB48 /* Main.storyboard */; };
 		C35CA44B2B729CD700C9DB48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35CA44A2B729CD700C9DB48 /* Assets.xcassets */; };
 		C35CA44E2B729CD700C9DB48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35CA44C2B729CD700C9DB48 /* LaunchScreen.storyboard */; };
+		C35CA4612B72A11400C9DB48 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35CA4602B72A11400C9DB48 /* Product.swift */; };
+		C35CA4632B72A21900C9DB48 /* APIManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35CA4622B72A21900C9DB48 /* APIManger.swift */; };
+		C35CA4652B72A65700C9DB48 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35CA4642B72A65700C9DB48 /* Constants.swift */; };
+		C3A460AC2B7546DC00A95E10 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A460AB2B7546DC00A95E10 /* ProductViewModel.swift */; };
+		C3A460AF2B7550F900A95E10 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A460AD2B7550F900A95E10 /* TableViewCell.swift */; };
+		C3A460B02B7550F900A95E10 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3A460AE2B7550F900A95E10 /* TableViewCell.xib */; };
+		C3A460B32B75603500A95E10 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C3A460B22B75603500A95E10 /* Kingfisher */; };
+		C3A460B52B75607100A95E10 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A460B42B75607100A95E10 /* UIImageView + Extension.swift */; };
+		C3A460B82B76965000A95E10 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A460B72B76965000A95E10 /* CardView.swift */; };
+		C3A460BB2B769BF900A95E10 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A460BA2B769BF900A95E10 /* EndPointType.swift */; };
+		C3A460BD2B7A7E1B00A95E10 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A460BC2B7A7E1B00A95E10 /* AddProductViewController.swift */; };
+		C3A460BF2B7A803200A95E10 /* AddProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A460BE2B7A803200A95E10 /* AddProduct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,17 @@
 		C35CA44A2B729CD700C9DB48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C35CA44D2B729CD700C9DB48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C35CA44F2B729CD700C9DB48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35CA4602B72A11400C9DB48 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C35CA4622B72A21900C9DB48 /* APIManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManger.swift; sourceTree = "<group>"; };
+		C35CA4642B72A65700C9DB48 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C3A460AB2B7546DC00A95E10 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		C3A460AD2B7550F900A95E10 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C3A460AE2B7550F900A95E10 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		C3A460B42B75607100A95E10 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		C3A460B72B76965000A95E10 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C3A460BA2B769BF900A95E10 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		C3A460BC2B7A7E1B00A95E10 /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+		C3A460BE2B7A803200A95E10 /* AddProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProduct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A460B32B75603500A95E10 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +80,130 @@
 		C35CA4402B729CC900C9DB48 /* DessertApp MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				C35CA4412B729CCA00C9DB48 /* AppDelegate.swift */,
-				C35CA4432B729CCA00C9DB48 /* SceneDelegate.swift */,
-				C35CA4452B729CCA00C9DB48 /* ViewController.swift */,
-				C35CA4472B729CCA00C9DB48 /* Main.storyboard */,
-				C35CA44A2B729CD700C9DB48 /* Assets.xcassets */,
-				C35CA44C2B729CD700C9DB48 /* LaunchScreen.storyboard */,
+				C3A460B62B76964300A95E10 /* CustomView */,
+				C35CA45B2B729EFA00C9DB48 /* Application */,
+				C35CA45A2B729EF200C9DB48 /* Constants */,
+				C35CA4592B729EF000C9DB48 /* Extensions */,
+				C3A460B92B769BB700A95E10 /* Utility */,
+				C35CA4582B729EED00C9DB48 /* Helper */,
+				C35CA4572B729EEA00C9DB48 /* Screens */,
+				C35CA4562B729EE700C9DB48 /* StoryBoard */,
+				C35CA4552B729EDE00C9DB48 /* Resources */,
 				C35CA44F2B729CD700C9DB48 /* Info.plist */,
 			);
 			path = "DessertApp MVVM";
+			sourceTree = "<group>";
+		};
+		C35CA4552B729EDE00C9DB48 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C35CA44A2B729CD700C9DB48 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C35CA4562B729EE700C9DB48 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C35CA4472B729CCA00C9DB48 /* Main.storyboard */,
+				C35CA44C2B729CD700C9DB48 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		C35CA4572B729EEA00C9DB48 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C35CA45C2B72A09000C9DB48 /* Products */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C35CA4582B729EED00C9DB48 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C35CA4622B72A21900C9DB48 /* APIManger.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C35CA4592B729EF000C9DB48 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C3A460B42B75607100A95E10 /* UIImageView + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C35CA45A2B729EF200C9DB48 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C35CA4642B72A65700C9DB48 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C35CA45B2B729EFA00C9DB48 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C35CA4412B729CCA00C9DB48 /* AppDelegate.swift */,
+				C35CA4432B729CCA00C9DB48 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C35CA45C2B72A09000C9DB48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C35CA45D2B72A09C00C9DB48 /* Model */,
+				C35CA45E2B72A0A200C9DB48 /* View */,
+				C35CA45F2B72A0A800C9DB48 /* ViewModel */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		C35CA45D2B72A09C00C9DB48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C35CA4602B72A11400C9DB48 /* Product.swift */,
+				C3A460BE2B7A803200A95E10 /* AddProduct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C35CA45E2B72A0A200C9DB48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C35CA4452B729CCA00C9DB48 /* ViewController.swift */,
+				C3A460AD2B7550F900A95E10 /* TableViewCell.swift */,
+				C3A460AE2B7550F900A95E10 /* TableViewCell.xib */,
+				C3A460BC2B7A7E1B00A95E10 /* AddProductViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C35CA45F2B72A0A800C9DB48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C3A460AB2B7546DC00A95E10 /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C3A460B62B76964300A95E10 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				C3A460B72B76965000A95E10 /* CardView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		C3A460B92B769BB700A95E10 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C3A460BA2B769BF900A95E10 /* EndPointType.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +222,9 @@
 			dependencies = (
 			);
 			name = "DessertApp MVVM";
+			packageProductDependencies = (
+				C3A460B22B75603500A95E10 /* Kingfisher */,
+			);
 			productName = "DessertApp MVVM";
 			productReference = C35CA43E2B729CC900C9DB48 /* DessertApp MVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +253,9 @@
 				Base,
 			);
 			mainGroup = C35CA4352B729CC900C9DB48;
+			packageReferences = (
+				C3A460B12B75603500A95E10 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = C35CA43F2B729CC900C9DB48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C35CA44E2B729CD700C9DB48 /* LaunchScreen.storyboard in Resources */,
+				C3A460B02B7550F900A95E10 /* TableViewCell.xib in Resources */,
 				C35CA44B2B729CD700C9DB48 /* Assets.xcassets in Resources */,
 				C35CA4492B729CCA00C9DB48 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +284,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A460AC2B7546DC00A95E10 /* ProductViewModel.swift in Sources */,
+				C3A460AF2B7550F900A95E10 /* TableViewCell.swift in Sources */,
+				C3A460BD2B7A7E1B00A95E10 /* AddProductViewController.swift in Sources */,
 				C35CA4462B729CCA00C9DB48 /* ViewController.swift in Sources */,
+				C3A460B52B75607100A95E10 /* UIImageView + Extension.swift in Sources */,
+				C3A460B82B76965000A95E10 /* CardView.swift in Sources */,
+				C3A460BB2B769BF900A95E10 /* EndPointType.swift in Sources */,
+				C35CA4612B72A11400C9DB48 /* Product.swift in Sources */,
+				C35CA4632B72A21900C9DB48 /* APIManger.swift in Sources */,
+				C3A460BF2B7A803200A95E10 /* AddProduct.swift in Sources */,
 				C35CA4422B729CCA00C9DB48 /* AppDelegate.swift in Sources */,
 				C35CA4442B729CCA00C9DB48 /* SceneDelegate.swift in Sources */,
+				C35CA4652B72A65700C9DB48 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +517,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C3A460B12B75603500A95E10 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C3A460B22B75603500A95E10 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A460B12B75603500A95E10 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C35CA4362B729CC900C9DB48 /* Project object */;
 }
